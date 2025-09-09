@@ -50,3 +50,10 @@ fun GreetingPreview() {
 fun MyTextComponent() {
     Text(text = "Hola desde el primer componente!")
 }
+
+@Composable
+fun MyButtonComponent() {
+    Button(onClick = {}) {
+        Text("Click aquí")
+    }
+}
