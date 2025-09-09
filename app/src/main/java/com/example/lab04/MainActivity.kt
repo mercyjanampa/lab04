@@ -45,3 +45,8 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+@Composable
+fun MyTextComponent() {
+    Text(text = "Hola desde el primer componente!")
+}
